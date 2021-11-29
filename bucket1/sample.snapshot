@@ -16,14 +16,14 @@
         "flowFileConcurrency" : "UNBOUNDED",
         "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
         "funnels" : [ ],
-        "identifier" : "47963e6f-c7b0-37c5-8501-d38843290315",
+        "identifier" : "c3c756e7-d17d-3a39-9a29-b13eb7bae634",
         "inputPorts" : [ ],
         "labels" : [ ],
         "name" : "Nifi Sample",
         "outputPorts" : [ ],
         "position" : {
-          "x" : 719.0,
-          "y" : 180.0
+          "x" : 568.0,
+          "y" : 145.0
         },
         "processGroups" : [ ],
         "processors" : [ {
@@ -38,13 +38,13 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "47963e6f-c7b0-37c5-8501-d38843290315",
-          "identifier" : "b2cf085f-b659-3c76-b2ff-9cf7bb4c8990",
+          "groupIdentifier" : "c3c756e7-d17d-3a39-9a29-b13eb7bae634",
+          "identifier" : "31826954-4632-3345-97b8-9c56ef3b2005",
           "name" : "TailFile",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 1256.0,
-            "y" : 336.0
+            "x" : 536.0,
+            "y" : 176.0
           },
           "properties" : {
             "tailfile-recursive-lookup" : "false",

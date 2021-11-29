@@ -1,5 +1,5 @@
 flows:
-  42116303-a929-4f79-9f57-4f4f74564a1a: {ver: 2, file: sample.snapshot, comments: CHANGES
-      IN FLOW FILE, author: anonymous, created: 1638195565355, flowName: sample, flowDesc: ''}
+  42116303-a929-4f79-9f57-4f4f74564a1a: {ver: 2, file: sample.snapshot, comments: asd,
+    author: anonymous, created: 1638198358957, flowName: sample, flowDesc: ''}
 layoutVer: 1
 bucketId: 5410f5fe-fe0d-4bac-b4a7-41fe77a53c52
