@@ -1,5 +1,5 @@
 flows:
-  90b99535-e853-4504-944f-4bbfdaafc853: {ver: 1, file: bucket.snapshot, comments: '',
-    author: anonymous, created: 1638230719631, flowName: bucket, flowDesc: ''}
+  90b99535-e853-4504-944f-4bbfdaafc853: {ver: 2, file: bucket.snapshot, comments: test,
+    author: anonymous, created: 1638230770504, flowName: bucket, flowDesc: ''}
 layoutVer: 1
 bucketId: 8ebdc421-7c69-473a-8d3e-4c2f4ed0ce4c
