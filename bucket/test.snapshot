@@ -1,0 +1,156 @@
+{
+  "header" : {
+    "dataModelVersion" : "3"
+  },
+  "content" : {
+    "flowSnapshot" : {
+      "externalControllerServices" : { },
+      "flowContents" : {
+        "comments" : "",
+        "componentType" : "PROCESS_GROUP",
+        "connections" : [ ],
+        "controllerServices" : [ ],
+        "defaultBackPressureDataSizeThreshold" : "1 GB",
+        "defaultBackPressureObjectThreshold" : 10000,
+        "defaultFlowFileExpiration" : "0 sec",
+        "flowFileConcurrency" : "UNBOUNDED",
+        "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
+        "funnels" : [ ],
+        "identifier" : "b2238e35-5554-3164-8954-5a0980caaf69",
+        "inputPorts" : [ ],
+        "labels" : [ ],
+        "name" : "test",
+        "outputPorts" : [ ],
+        "position" : {
+          "x" : 760.0,
+          "y" : 190.0
+        },
+        "processGroups" : [ ],
+        "processors" : [ {
+          "autoTerminatedRelationships" : [ "success" ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.15.0"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "b2238e35-5554-3164-8954-5a0980caaf69",
+          "identifier" : "a83d0750-1db3-3885-84b6-c0fdd1b27593",
+          "name" : "TailFile",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 806.0,
+            "y" : 303.0
+          },
+          "properties" : {
+            "tailfile-recursive-lookup" : "false",
+            "File Location" : "Local",
+            "Initial Start Position" : "Beginning of File",
+            "Post-Rollover Tail Period" : "0 sec",
+            "reread-on-nul" : "false",
+            "tailfile-maximum-age" : "24 hours",
+            "Max Buffer Size" : "64 KB",
+            "File to Tail" : "./logs/nifi-app.log",
+            "tailfile-lookup-frequency" : "10 minutes",
+            "tail-mode" : "Single file"
+          },
+          "propertyDescriptors" : {
+            "tailfile-recursive-lookup" : {
+              "displayName" : "Recursive lookup",
+              "identifiesControllerService" : false,
+              "name" : "tailfile-recursive-lookup",
+              "sensitive" : false
+            },
+            "File Location" : {
+              "displayName" : "State Location",
+              "identifiesControllerService" : false,
+              "name" : "File Location",
+              "sensitive" : false
+            },
+            "Line Start Pattern" : {
+              "displayName" : "Line Start Pattern",
+              "identifiesControllerService" : false,
+              "name" : "Line Start Pattern",
+              "sensitive" : false
+            },
+            "Rolling Filename Pattern" : {
+              "displayName" : "Rolling Filename Pattern",
+              "identifiesControllerService" : false,
+              "name" : "Rolling Filename Pattern",
+              "sensitive" : false
+            },
+            "Initial Start Position" : {
+              "displayName" : "Initial Start Position",
+              "identifiesControllerService" : false,
+              "name" : "Initial Start Position",
+              "sensitive" : false
+            },
+            "Post-Rollover Tail Period" : {
+              "displayName" : "Post-Rollover Tail Period",
+              "identifiesControllerService" : false,
+              "name" : "Post-Rollover Tail Period",
+              "sensitive" : false
+            },
+            "tail-base-directory" : {
+              "displayName" : "Base directory",
+              "identifiesControllerService" : false,
+              "name" : "tail-base-directory",
+              "sensitive" : false
+            },
+            "reread-on-nul" : {
+              "displayName" : "Reread when NUL encountered",
+              "identifiesControllerService" : false,
+              "name" : "reread-on-nul",
+              "sensitive" : false
+            },
+            "tailfile-maximum-age" : {
+              "displayName" : "Maximum age",
+              "identifiesControllerService" : false,
+              "name" : "tailfile-maximum-age",
+              "sensitive" : false
+            },
+            "Max Buffer Size" : {
+              "displayName" : "Max Buffer Size",
+              "identifiesControllerService" : false,
+              "name" : "Max Buffer Size",
+              "sensitive" : false
+            },
+            "File to Tail" : {
+              "displayName" : "File(s) to Tail",
+              "identifiesControllerService" : false,
+              "name" : "File to Tail",
+              "sensitive" : false
+            },
+            "tailfile-lookup-frequency" : {
+              "displayName" : "Lookup frequency",
+              "identifiesControllerService" : false,
+              "name" : "tailfile-lookup-frequency",
+              "sensitive" : false
+            },
+            "tail-mode" : {
+              "displayName" : "Tailing mode",
+              "identifiesControllerService" : false,
+              "name" : "tail-mode",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.TailFile",
+          "yieldDuration" : "1 sec"
+        } ],
+        "remoteProcessGroups" : [ ],
+        "variables" : { }
+      },
+      "flowEncodingVersion" : "1.0",
+      "parameterContexts" : { }
+    }
+  }
+}
