@@ -1,6 +1,6 @@
 flows:
-  7b85bc5d-4523-46dc-9566-76fcb9d438f5: {ver: 1, file: testflow.snapshot, comments: '',
-    author: anonymous, created: 1638230920064, flowName: testflow, flowDesc: ''}
+  7b85bc5d-4523-46dc-9566-76fcb9d438f5: {ver: 2, file: testflow.snapshot, comments: test,
+    author: anonymous, created: 1638230945352, flowName: testflow, flowDesc: ''}
   39ee1272-52aa-4d7c-9648-142ca7b5894f: {ver: 1, file: test.snapshot, comments: sampke,
     author: anonymous, created: 1638230878472, flowName: test, flowDesc: ''}
   90b99535-e853-4504-944f-4bbfdaafc853: {ver: 2, file: bucket.snapshot, comments: test,
