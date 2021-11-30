@@ -1,12 +1,5 @@
 flows:
-  bb743cc1-001b-4c8d-8155-237caa38c547:
-    ver: 3
-    file: testflow.snapshot
-    comments: |
-      changes
-    author: anonymous
-    created: 1638230313358
-    flowName: testflow
-    flowDesc: ''
+  bb743cc1-001b-4c8d-8155-237caa38c547: {ver: 4, file: testflow.snapshot, comments: new
+      flow, author: anonymous, created: 1638230532219, flowName: testflow, flowDesc: ''}
 layoutVer: 1
 bucketId: 9716a5e2-b140-4265-a4d4-a6cf79537f7a
